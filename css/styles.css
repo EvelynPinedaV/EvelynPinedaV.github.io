@@ -1,0 +1,99 @@
+/* Typography */
+body{
+    font-family: 'Martel', sans-serif;
+    background-color: #f7f2f0!important;
+
+}
+
+h1{
+    font-family: 'Trirong', serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Adamina', serif;
+    color: #25454a!important;
+}
+
+p{
+  color: #25454a!important;
+}
+
+footer{
+  color: #F7f2f099;
+}
+
+/* Hero */
+#hero{
+    background-size: cover;
+    background-position: 50% 58%;
+    max-height: 40vh;
+}
+
+#photo #hero{
+    background-image: url(../img/nature/00.jpg);
+    background-blend-mode: multiply;
+}
+
+#art #hero{
+  background-image: url(../img/art/05.jpeg);
+  background-position: 50% 48%;
+  background-blend-mode: multiply;
+}
+
+.hero h1{
+  font-size: 5rem;
+  color: #25454a99;
+}
+
+.hero h2{
+  font-family: 'Trirong', serif;
+  font-size: 2rem;
+  color: #25454a;
+}
+
+#photo #hero h1{
+  font-size: 3rem;
+  font-style: bold;
+  color: #f7f2f0;
+}
+
+#photo #hero p{
+  font-family: 'martel', serif;
+  font-size: .96rem;
+  color: #f7f2f0;
+}
+
+/* Button*/
+.btn-secondary{
+  background-color: #25454a!important;
+  color: #F7f2f0;
+}
+
+/* background
+#art #artCarousel{
+  background-image: url(../img/art/back-img03.jpeg);
+  background-position: 60% 60%;
+} */
+
+/* Dark background */
+.bg-dark {
+    background-color: #648186!important;
+}
+
+#copyright{
+  background-color: #25454a!important;
+  font-size: .7rem;
+}
+
+.dropdown-menu-dark {
+    background-color: #25454a!important;
+}
+
+.dropdown-menu-dark .dropdown-item.active,
+.dropdown-menu-dark .dropdown-item:active {
+    background-color: #395f65;
+}
+
+.text-bg-light{
+  background-color: #64818666!important;
+}
