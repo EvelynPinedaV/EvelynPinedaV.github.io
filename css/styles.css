@@ -1,0 +1,225 @@
+/* Typography */
+body{
+    font-family: 'Martel', sans-serif;
+    background-color: #f7f2f0!important;
+}
+
+h1{
+    font-family: 'Trirong', serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Adamina', serif;
+    color: #25454a!important;
+}
+
+#art p{
+  color: #25454a!important;
+}
+
+#about p{
+  color: #f7f2f0!important;
+  font-family: 'Martel', sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+#about .lead-edu{
+  text-align: left;
+}
+
+#about h1{
+  color: #f7f2f099!important;
+}
+
+#process h1{
+  color: #f7f2f099!important;
+}
+
+#process p{
+  color: #f7f2f0!important;
+  font-family: 'Martel', sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.blog-header-logo{
+  font-family: 'Trirong', serif;
+  font-size: 3rem;
+  color: #25454a;
+  text-decoration: none;
+}
+
+.blog-header-logo:hover{
+  color: #25454a99;
+}
+
+.secondary-link .active{
+  color: #25454a;
+}
+
+#blog .lead{
+  text-align: justify;
+}
+
+#blog .lead1{
+  text-align: left;
+}
+
+#blog .link-h{
+  color: #25454a;
+}
+
+.link-process{
+  color: #F7f2f099;
+}
+
+.link-process:hover{
+    color: #F7f2f099;
+}
+
+footer{
+  color: #F7f2f099;
+}
+
+/* Hero */
+#home #hero{
+    background-size: cover;
+    background-position: 50% 58%;
+    max-height: 40vh;
+}
+
+#photo #hero{
+    background-image: url(../img/nature/00.jpg);
+    background-blend-mode: multiply;
+    background-position: 50% 58%;
+    background-size: cover;
+}
+
+#artback{
+  background-image: url(../img/art/05.jpeg);
+  background-position: 50% 38%;
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#about #hero{
+  background-image: url(../img/back-about.jpeg);
+  background-position: 45% 50%;
+}
+
+.hero h1{
+  font-size: 5rem;
+  color: #25454a99;
+}
+
+.hero h2{
+  font-family: 'Trirong', serif;
+  font-size: 2rem;
+  color: #25454a;
+}
+
+#photo #hero h1{
+  font-size: 3rem;
+  font-style: bold;
+  color: #f7f2f0;
+}
+
+#photo #hero p{
+  font-family: 'martel', serif;
+  font-size: .96rem;
+  color: #f7f2f0;
+}
+
+/* Button*/
+.btn-secondary{
+  background-color: #25454a!important;
+  color: #F7f2f0;
+}
+
+
+/* background */
+#artCarousel{
+  background-image: url(../img/art/back-img.jpeg);
+    background-size: cover;
+}
+
+svg{
+  fill: #25454a;
+}
+
+#process .bg-secondary{
+    background-color: #f7f2f0!important;
+}
+
+#process .bg-secondary h1{
+    color: #395f65!important;
+}
+
+#process .bg-secondary h2{
+    color: #395f65!important;
+    font-size: 1.6rem;
+
+}
+
+#process .bg-secondary p{
+    color: #395f65!important;
+    font-size: 1rem;
+}
+
+
+#about .bg-secondary{
+    background-color: #f7f2f0!important;
+}
+
+#about .bg-secondary h1{
+    color: #395f65!important;
+}
+
+#about .bg-secondary h2{
+    color: #395f6599!important;
+    font-size: .7rem;
+
+}
+
+#about .bg-secondary p{
+    color: #395f65!important;
+    font-size: 1rem;
+}
+
+#about .bg-secondary h3{
+    color: #395f65!important;
+    font-size: .8rem;
+    text-decoration: underline;
+
+}
+
+
+
+#blog .table-1{
+ background-color: #648186!important;
+ color: #f7f2f0;
+}
+
+/* Dark background */
+.bg-dark {
+    background-color: #648186!important;
+}
+
+#copyright{
+  background-color: #25454a!important;
+  font-size: .7rem;
+}
+
+.dropdown-menu-dark {
+    background-color: #25454a!important;
+}
+
+.dropdown-menu-dark .dropdown-item.active,
+.dropdown-menu-dark .dropdown-item:active {
+    background-color: #395f65;
+}
+
+.text-bg-light{
+  background-color: #64818666!important;
+}
