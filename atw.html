@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Evelyn Pineda - Travel Blog</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Martel&family=Trirong&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+      <link rel="shortcut icon" href="img/e.jpeg" type="image/x-icon">
+  </head>
+
+  <body class="d-flex flex-column h-100" id="atw">
+    <!-- Bootstrap Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container flex-column">
+      <a class="navbar-brand" href="index.html">
+        <!-- Logo created on Canva by Evelyn Pineda-->
+        <img width="250px" src="img/logo.jpeg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Travel
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item active" aria-current="page"  href="blog.html">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hobbies
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="photo.html">Photography</a></li>
+              <li><a class="dropdown-item" href="art.html">Art</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center">
+  <header class="blog-header my-3 lh-1 py-2">
+        <a class="blog-header-logo fst-italic" href="blog.html">Travel Blog</a>
+  </header>
+  <hr class="featurette-divider">
+  </div>
+
+
+<main>
+
+<!-- Carousel -->
+
+<section class="container mb-4 ">
+<h2 class="mb-4">Around the World</h2>
+<div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="0" src="img/atw/India.jpg" class="d-block w-100 mb-2" alt="India">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      India
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="1" src="img/atw/India2.jpg" class="d-block w-100 mb-2" alt="India">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      India
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="2" src="img/atw/India3.jpg" class="d-block w-100 mb-2" alt="India">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      India
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="3" src="img/atw/Germany.jpg" class="d-block w-100 mb-2" alt="Germany">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      Germany
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="4" src="img/atw/France.jpg" class="d-block w-100 mb-2" alt="France">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      France
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="5" src="img/atw/Canada2.jpg" class="d-block w-100 mb-2" alt="Canada">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      Canada
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="6" src="img/atw/Canada.jpg" class="d-block w-100 mb-2" alt="Canada">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      Canada
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="7" src="img/atw/US.jpg" class="d-block w-100 mb-2" alt="The U.S.">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      The U.S.
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="8" src="img/atw/Mexico.jpg" class="d-block w-100 mb-2" alt="Mexico">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      Mexico
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="9" src="img/atw/Japan.jpg" class="d-block w-100 mb-2" alt="Japan">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      Japan
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="10" src="img/atw/England.jpg" class="d-block w-100 mb-2" alt="England">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      England
+    </p>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 my-3">
+    <img data-bs-target="#atwCarousel" data-bs-slide-to="11" src="img/atw/UAE.jpg" class="d-block w-100 mb-2" alt="UAE">
+    <p class="text-end fst-italic px-2">
+      <svg class="align-baseline" width="1em" height="1em"><use xlink:href="img/bootstrap-icons.svg#pin-map"></use></svg>
+      United Arab Emirates
+    </p>
+  </div>
+</div>
+</section>
+
+</main>
+
+<footer class="d-flex  col-12 flex-wrap justify-content-between  text-center align-items-center py-3 px-3 bg-dark">
+
+      <a class="footer col-sm-3 col-md-4 d-flex align-items-center" href="index.html">
+        <!-- Logo created on Canva by Evelyn Pineda-->
+        <img width="130px" src="img/logo.jpeg" alt="logo" class="img-fluid">
+      </a>
+
+
+    <ul class="nav col-sm-4 col-md-4 justify-content-end list-unstyled d-flex">
+      <a href="https://www.instagram.com/evelynjanethpv/" target="_blank"  type="button">
+      <svg class="bi text-muted flex-shrink-0 me-2" width="1.65em" height="1.65em"><use xlink:href="img/bootstrap-icons.svg#instagram"></use></svg>
+      </a>
+      <p class="my-1">Follow on Instagram!</p>
+    </ul>
+  </footer>
+
+<footer id="copyright" class="footer py-2 bg-dark">
+    <div class="container text-center">
+      <span>Copyright 2022 Evelyn Pineda | All Rights Reserved |
+        <a class="link-process" href="process.html">Process</a>
+      </span>
+    </div>
+</footer>
+
+    <!-- Bootstrap Javascript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
